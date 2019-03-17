@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher_foreground"
+            tools:srcCompat="@tools:sample/backgrounds/scenic[1]" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="253dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal" />
+
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="253dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/textview1"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginLeft="110dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
